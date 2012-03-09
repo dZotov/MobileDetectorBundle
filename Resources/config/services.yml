@@ -1,5 +1,4 @@
 parameters:
-  #mobile domain
   redirect_url: m.domain.com
 
 services:
