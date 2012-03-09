@@ -1,0 +1,13 @@
+parameters:
+  redirect_url: m.av69.tv
+
+services:
+  app.mobiledetectorbundle.mobile_detector:
+    class: App\MobileDetectorBundle\MobileDetector
+    arguments: [@service_container, %redirect_url%]
+
+  app.mobiledetectorbundle.event_listener:
+    class: App\MobileDetectorBundle\EventListener
+    arguments: [@service_container]
+    tags:
+      -   { name: kernel.event_listener, event: kernel.request, method: onKernelRequest }
