@@ -1,5 +1,6 @@
 parameters:
-  redirect_url: m.av69.tv
+  #mobile domain
+  redirect_url: m.domain.com
 
 services:
   app.mobiledetectorbundle.mobile_detector:
