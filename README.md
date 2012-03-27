@@ -2,10 +2,6 @@
 
 The MobileDatectorBundle allows to datect mobile devices and redirect to mobile site version.
 
-## Installation
-
-    git submodule add git@github.com:dZotov/MobileDetectorBundle.git src/App
-
 ### Application Kernel
 
 Add MobileDatectorBundle to the `registerBundles()` method of your application kernel:
