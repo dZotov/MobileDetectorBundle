@@ -1,6 +1,6 @@
 # MobileDatectorBundle
 
-The MobileDatectorBundle allows to datect mobile devices and redirect to mobile site version.
+The MobileDatectorBundle allows to detect mobile devices and redirect to mobile site version.
 
 ### Application Kernel
 
